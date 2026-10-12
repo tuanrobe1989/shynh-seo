@@ -1,0 +1,41 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs, caches, and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+.phpunit.result.cache
+
+# Dependency/build folders when doing local development
+node_modules/
+bower_components/
+vendor/
+dist/
+build/
+coverage/
+
+# Backups and generated archives
+*.bak
+*.backup
+*.sql
+*.sql.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Keep bundled browser libraries that are part of the plugin runtime.
+!assets/vendor/
+!assets/vendor/**

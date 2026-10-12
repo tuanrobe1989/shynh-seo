@@ -1,0 +1,39 @@
+/* Shynh SEO — API & AI Access admin styles */
+
+.shynh-seo-api-wrap .card {
+	max-width: 100%;
+	margin-top: 16px;
+	padding: 8px 20px 16px;
+}
+
+.shynh-seo-api-wrap .shynh-seo-new-key {
+	display: inline-block;
+	margin-top: 6px;
+	padding: 8px 12px;
+	font-size: 14px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	user-select: all;
+	word-break: break-all;
+}
+
+.shynh-seo-api-toggle {
+	border-left: 4px solid #2271b1;
+}
+
+#shynh-seo-swagger-ui {
+	margin-top: 16px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+}
+
+/* Trim Swagger UI's default top bar (we supply our own spec URL). */
+#shynh-seo-swagger-ui .topbar {
+	display: none;
+}
+
+#shynh-seo-swagger-ui .swagger-ui .info {
+	margin: 20px;
+}
